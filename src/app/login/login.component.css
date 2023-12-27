@@ -1,0 +1,181 @@
+.login_body {
+    padding-top:170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+  }
+  
+  body {
+    background-image: url('src/assets/restaurant_image.jpeg');
+    /* height: 750px; */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  
+  .login_form {
+    position: relative;
+    border-bottom: 3px solid #fb966f;
+    border-right: 3px solid #fb966f;
+    background-color: #ffd1b7;
+    flex-direction: column;
+    height: 400px;
+    width: 700px;
+    box-shadow: 10px 10px 10px 10px rgba(251, 150, 111, 0.6);
+    overflow: hidden;
+    opacity: 0.8;
+  }
+  
+  .details {
+    position: relative;
+    background: #fee4d4;
+    height: 400px;
+    width: 350px;
+  }
+  
+  .details_two {
+    background-color: #ffd1b7;
+  }
+  
+  .welcome {
+    position: absolute;
+    color: #302825;
+    left: 40%;
+    top: 15%;
+    font-size: 24px;
+  }
+  
+  .wrap:nth-child(1) {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    margin: 12px;
+    font-size: 18px;
+  }
+  
+  .wrap:nth-child(2) {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    font-size: 15px;
+    margin: 12px;
+    padding-top: 15px;
+    font-size: 18px;
+  }
+  
+  .wrap:nth-child(3) {
+    position: absolute;
+    top: 74%;
+    left: 20%;
+    font-size: 15px;
+    margin: 12px;
+  }
+  
+  .input {
+    border: 1px solid #fdb493;
+    padding: 5px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    background: none;
+    box-shadow: inset 10px 10px 6px -5px rgba(255, 209, 183, 1);
+  }
+  
+  label {
+    color: #707e8d;
+    display: block;
+  }
+  
+  .button {
+    background-color: #302825;
+    position: absolute;
+    width: 80px;
+    top: 75%;
+    right: 10%;
+    padding: 5px;
+    color: #ffd1b7;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .button .sign {
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+  }
+  
+  .fox {
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    height: 18%;
+  }
+  
+  .back {
+    position: absolute;
+    top: 10%;
+    left: 56%;
+    font-size: 24px;
+  }
+  
+  .log {
+    position: absolute;
+    top: 25%;
+    left: 56%;
+    font-size: 18px;
+  }
+  
+  .acc {
+    position: absolute;
+    top: 45%;
+    left: 56%;
+    font-size: 18px;
+  
+  }
+  
+  .customer {
+    position: absolute;
+    top: 70%;
+    left: 56%;
+    color: #f45f34;
+    background-color: #fb966f;
+    border-radius: 5px;
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+  }
+  
+  .res {
+    position: absolute;
+    top: 72%;
+    left: 76%;
+    color: #f45f34;
+    background-color: #fb966f;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  h3 {
+    font-size: 14px;
+    color: #f45f34;
+    padding: 5px;
+  }
+  
+  
+  .text-danger {
+    color: red;
+    font-size: 14px;
+    padding-bottom: 14px;
+  }

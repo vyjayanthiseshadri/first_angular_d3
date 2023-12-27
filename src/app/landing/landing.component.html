@@ -1,0 +1,42 @@
+<!-- landing-page.component.html -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">  -->
+<header>
+  <h1 >Visualize360</h1>
+  <button class="logout" (click)="logout()">Logout</button>
+</header>
+<body>
+<div class="landing-container">
+   <button (click)="dialog()" class="upload-btn">Visualize</button>
+  </div>
+  
+  <!-- Display D3 Charts in a dialog -->
+  <ng-container *ngIf="showDialog">
+    <div class="dialog">
+      <h2>Select D3 Chart Type</h2>
+      <select [(ngModel)]="selectedChartType" class="chart-select">
+        <option value="bar">Bar Chart</option>
+        <option value="pie">Pie Chart</option>
+        <option value="scatter">Scatter Plot</option>
+        <option value="donut">Donut Chart</option>
+
+        <!-- Add other chart types as needed -->
+      </select>
+      <button (click)="generateChart()" class="generate-btn">Generate Chart</button>
+      <button (click)="closeDialog()" class="close-btn">Close</button>
+      
+    </div>
+  </ng-container>
+  
+<!-- landing-page.component.html -->
+
+<!-- Display the chart -->
+
+<div *ngIf="chartData" class="chart-container" id="chart-container">
+    <h2>Chart</h2>
+  </div>
+
+</body>
+
+  
+  
+  

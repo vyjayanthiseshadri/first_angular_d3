@@ -1,0 +1,23 @@
+.container {
+    margin-left: 50px;
+    background-color:whitesmoke;
+    margin-right:50px;
+    padding: 30px;
+}
+
+input {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#bar {
+    font-size: 16px;
+}
+#tooltip {
+    position: absolute;
+    background: white;
+    padding: 8px;
+    border-radius: 5px;
+    border:1px solid black;
+    opacity: 0;
+  }
